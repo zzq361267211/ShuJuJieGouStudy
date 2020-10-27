@@ -32,5 +32,19 @@ namespace ShuJuJieGouStudy
             linkedList.Remove( 2);
             Console.WriteLine(linkedList.ToString());
         }
+
+        private void btn_LinkedListStack_Click(object sender, EventArgs e)
+        {
+            LinkedListStack<int> linkedListStack = new LinkedListStack<int>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                linkedListStack.Push(i);
+                Console.WriteLine(linkedListStack.ToString());
+            }
+
+            linkedListStack.Pop();
+            Console.WriteLine(linkedListStack.ToString());
+        }
     }
 }

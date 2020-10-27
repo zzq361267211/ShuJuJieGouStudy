@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Interface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Interface\Interface\bin\Debug\netstandard2.0\netstandard2.0\Interface.dll</HintPath>
+    </Reference>
     <Reference Include="ShuJuJieGouStudy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\ShuJuJieGouStudy.dll</HintPath>
@@ -48,14 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array.cs" />
-    <Compile Include="ArrayQuene.cs" />
-    <Compile Include="ArryStack.cs" />
-    <Compile Include="BST.cs" />
-    <Compile Include="IArrayStack.cs" />
-    <Compile Include="IQuene.cs" />
-    <Compile Include="LinkedList.cs" />
-    <Compile Include="LoopQuene.cs" />
+    <Compile Include="Class\Array.cs" />
+    <Compile Include="Class\ArrayQuene.cs" />
+    <Compile Include="Class\ArryStack.cs" />
+    <Compile Include="Class\BST.cs" />
+    <Compile Include="Interface\IArrayStack.cs" />
+    <Compile Include="Interface\IQuene.cs" />
+    <Compile Include="Interface\IStack.cs" />
+    <Compile Include="Class\LinkedList.cs" />
+    <Compile Include="Class\LinkedListStack.cs" />
+    <Compile Include="Class\LoopQuene.cs" />
     <Compile Include="TestForm.cs">
       <SubType>Form</SubType>
     </Compile>

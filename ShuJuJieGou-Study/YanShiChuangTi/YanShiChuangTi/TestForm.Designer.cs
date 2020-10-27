@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_LinkedListStack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -41,11 +42,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn_LinkedListStack
+            // 
+            this.btn_LinkedListStack.Location = new System.Drawing.Point(127, 255);
+            this.btn_LinkedListStack.Name = "btn_LinkedListStack";
+            this.btn_LinkedListStack.Size = new System.Drawing.Size(115, 46);
+            this.btn_LinkedListStack.TabIndex = 1;
+            this.btn_LinkedListStack.Text = "链表栈";
+            this.btn_LinkedListStack.UseVisualStyleBackColor = true;
+            this.btn_LinkedListStack.Click += new System.EventHandler(this.btn_LinkedListStack_Click);
+            // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_LinkedListStack);
             this.Controls.Add(this.button1);
             this.Name = "TestForm";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_LinkedListStack;
     }
 }
 
