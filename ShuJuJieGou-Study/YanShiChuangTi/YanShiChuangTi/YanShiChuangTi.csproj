@@ -51,6 +51,7 @@
     <Compile Include="Array.cs" />
     <Compile Include="ArrayQuene.cs" />
     <Compile Include="ArryStack.cs" />
+    <Compile Include="BST.cs" />
     <Compile Include="IArrayStack.cs" />
     <Compile Include="IQuene.cs" />
     <Compile Include="LinkedList.cs" />
