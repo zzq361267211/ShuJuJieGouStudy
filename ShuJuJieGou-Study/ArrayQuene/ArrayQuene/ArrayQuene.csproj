@@ -83,11 +83,5 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Arry\Array.csproj">
-      <Project>{d3ecc337-14d6-4222-b539-77bdbc8cbdea}</Project>
-      <Name>Array</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
