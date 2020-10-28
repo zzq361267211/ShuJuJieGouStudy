@@ -56,6 +56,7 @@
     <Compile Include="Class\ArrayQuene.cs" />
     <Compile Include="Class\ArryStack.cs" />
     <Compile Include="Class\BST.cs" />
+    <Compile Include="Class\LinkedListQuene.cs" />
     <Compile Include="Interface\IArrayStack.cs" />
     <Compile Include="Interface\IQuene.cs" />
     <Compile Include="Interface\IStack.cs" />

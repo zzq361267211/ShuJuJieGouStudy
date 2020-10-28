@@ -85,5 +85,57 @@ namespace ShuJuJieGouStudy
             }
 
         }
+        /// <summary>
+        /// 最常用
+        /// </summary>
+        public void PreOrder()
+        {
+            PreOrder(root);
+        }
+        public void PreOrder(Node node)
+        {
+            if (node==null)
+            {
+                return;
+            }
+
+            Console.WriteLine(node.e.ToString());
+            PreOrder(node.left);
+            PreOrder(node.right);
+        }
+        /// <summary>
+        /// 返回有序的结果
+        /// </summary>
+        public void InOrder()
+        {
+            InOrder(root);
+        }
+        public void InOrder(Node node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+            InOrder(node.left);
+            Console.WriteLine(node.e.ToString());
+            InOrder(node.right);
+        }
+        /// <summary>
+        /// 优先处理孩子节点
+        /// </summary>
+        public void PostOrder()
+        {
+            PostOrder(root);
+        }
+        public void PostOrder(Node node)
+        {
+            if (node == null)
+            {
+                return;
+            }
+            PostOrder(node.left);            
+            PostOrder(node.right);
+            Console.WriteLine(node.e.ToString());
+        }
     }
 }
